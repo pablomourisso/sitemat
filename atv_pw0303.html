@@ -1,0 +1,103 @@
+<!doctype HTML>
+<HTML lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sistema de Equação</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        #title {
+            background-color: black;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            border-top-width: thick;
+            border-top-style: solid;
+            border-top-color: red;
+            border-bottom-width: thick;
+            border-bottom-style: solid;
+            border-bottom-color: blue;
+            border-right-width: thick;
+            border-right-style: solid;
+            border-right-color: green;
+            border-left-width: thick;
+            border-left-style: solid;
+            border-left-color: yellow;
+        }
+        
+        body {
+            background-color: turquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <font size="4" face="helvética" color="white" />
+    <h1 id="title">
+        <Center><b>Sistema de Equções</b></Center>
+    </h1><br>
+    <p>Um sistema de equações é constituído por um conjunto de equações que apresentam mais de uma incógnita. Para resolver um sistema é necessário encontrar os valores que satisfaçam simultaneamente todas as equações. Um sistema é chamado do 1º grau, quando
+        o maior expoente das incógnitas, que integram as equações, é igual a 1 e não existe multiplicação entre essas incógnitas.</p><br><br>
+    <h1>
+        Como resolver um sistema de equações do 1º grau?
+    </h1>
+    <p>Podemos resolver um sistema de equações do 1º grau, com duas incógnitas, usando o método da substituição ou o da soma.</p>
+    <h2>Método de substituição</h2>
+    <p>Esse método consiste em escolher uma das equações e <u>isolarmos</u> uma das incógnitas, para determinar o seu valor em relação a outra incógnita. Depois, substituímos esse valor na outra equação. Desta forma, a segunda equação ficará com uma única
+        incógnita e, assim, poderemos encontrar o seu valor final. Para finalizar, <u>substituímos na primeira equação o valor encontrado</u> e, assim, encontramos também o valor da outra incógnita.</p>
+    <p>Desta forma, a segunda equação ficará com uma única incógnita e, assim, poderemos encontrar o seu valor final. Para finalizar, substituímos na primeira equação o valor encontrado e, assim, encontramos também o valor da outra incógnita.</p>
+    <h3>Exemplo</h3>
+    <P>Resolva o seguinte sistema de equação</P>
+    <img src="img/img_exemplo.png" alt="exemplo de equação">
+    <h3>Resolução</h3>
+    <p>Vamos começar escolhendo a primeira equação do sistema, que é a equação mais simples, para isolar o x. Assim temos:</p>
+    <img src="img/img_solucao1.jpg" alt="primeiro passo">
+    <p>Após substituir o valor de x, na segunda equação, podemos resolvê-la, da seguinte maneira:</p>
+    <img src="img/img_solucao2.png" alt="segundo passo">
+    <p>Agora que encontramos o valor do y, podemos substituir esse valor da primeira equação, para encontrar o valor do x:</p>
+    <img src="img/img_solucao3.png" alt="terceiro passo">
+    <p>Assim, a solução para o sistema dado é o par ordenado (8, 4). Repare que esse resultado tornam ambas as equações verdadeiras, pois 8 + 4 = 12 e 3.8 - 4 = 20.</p><br>
+    <h2>Método de adição</h2>
+    <p>No método da adição buscamos juntar as duas equações em uma <u>única</u> equação, <u>eliminando uma das incógnitas</u>.</p>
+    <p>Para isso, é necessário que os coeficientes de uma das incógnitas sejam opostos, isto é, devem ter o mesmo valor e sinais contrários.</p>
+    <h3>Exemplo</h3>
+    <p>Para exemplificar o método da adição, vamos resolver o mesmo sistema anterior:</p>
+    <img src="img/img_adicao.png" alt="exemplo de equação">
+    <p>Note que nesse sistema a incógnita y possui coeficientes opostos, ou seja, 1 e - 1. Então, iremos começar a calcular somando as duas equações, conforme indicamos abaixo:</p>
+    <img src="img/img_adicao1.jpg" alt="primeiro passo">
+    <p>Ao anular o y, a equação ficou apenas com o x, portanto agora, podemos resolver a equação:</p>
+    <img src="img/img_adicao2.png" alt="segundo passo">
+    <p>Para encontrar o valor do y, basta substituir esse valor em uma das duas equações. Vamos substituir na mais simples:</p>
+    <img src="img/img_adicao3.png" alt="terceiro passo">
+    <p>Note que o resultado é o mesmo que já havíamos encontrado, usando o método da substituição.</p>
+    <p>Quando as equações de um sistema não apresentam incógnitas com coeficientes opostos, podemos multiplicar todos os termos por um determinado valor, a fim de tornar possível utilizar esse método.</p>
+    <p>Por exemplo, no sistema abaixo, os coeficientes de x e de y não são opostos:</p>
+    <img src="img/img_adicao4.png" alt="exemplo de equação">
+    <p>Portanto, não podemos, inicialmente, anular nenhuma das incógnitas. Neste caso, devemos multiplicar por algum número que transforme o coeficiente em um número oposto do coeficiente da outra equação.</p>
+    <p>Podemos, por exemplo, multiplicar a primeira equação por - 2. Contudo, devemos ter o cuidado de multiplicarmos todos os termos por - 2, para não modificarmos a igualdade.</p>
+    <p>Assim, o sistema equivalente ao que queremos calcular é:</p>
+    <img src="img/img_adicao5.png" alt="passo 1">
+    <p>Agora, é possível resolver o sistema por adição, conforme apresentado abaixo:</p>
+    <img src="img/sistemasadicao2.jpg" altt="passo 2">
+    <p>Agora, é possível resolver o sistema por adição, conforme apresentado abaixo:</p>
+    <img src="img/img_adicao6.png" alt="passo 3">
+    <p>Assim, a solução para o sistema é o par ordenado (- 12, 60)</p><br><br>
+    <h2 >Exercício</h2>
+    <p >Uma garrafa PET (politereftalato de etileno) com sua tampa custa sessenta centavos. Sabendo que a garrafa custa cinquenta centavos a mais que a tampa, quanto custa só a tampa?</p>
+    <p>a) R$ 0,05</p>
+    <p>b) R$ 0,15</p>
+    <p>c) R$ 0,25</p>
+    <p>d) R$ 0,35</p>
+    <br>
+    <h2>Solução</h2>
+    <p>Considerando x o valor da garrafa e y o valor da tampa, temos o seguinte sistema:</p>
+    <img src="img/img_adicao7.png">
+    <p>Resolvendo o sistema por adição, temos:</p>
+    <img src="img/img_adicao8.png">
+    <p>x = 0,55 , que é o valor da garrafa. Logo só a tampa custa 0,55-0,50 = 0,05</p>
+    <p>Portanto a resposta é a alternativa: <b>a) R$ 0,05</b></p>
+</body>
